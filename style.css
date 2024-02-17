@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/*stile base de la navbar*/
+.nav-bar ul {
+  list-style: none;
+  background: #24242c;
+  padding: 10px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*stile del logo*/
+.nav-bar .logo {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 30px;
+  justify-content: flex-start;
+}
+/*margin degli elementi del menu*/
+.nav-bar .menu li {
+  margin: 20px;
+}
+/*stile del menu*/
+.nav-bar .menu {
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  padding: 0px, 10px;
+}
+
+/*stile della casella di Search*/
+.nav-bar .search {
+  align-items: end;
+  display: inline;
+}
+
+.search-box {
+  height: 100%;
+  width: 230px;
+  align-items: center;
+  margin: right;
+}
+
+.search-box input {
+  height: 33px;
+  width: 160px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.button-search {
+  background: #24242c;
+  color: #24724e;
+  border: 2px solid #24724e;
+  height: 33px;
+  border-radius: 10%;
+}
+
+.button-search:hover {
+  background: #24724e;
+  color: white;
+}
+
+
